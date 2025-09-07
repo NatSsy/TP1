@@ -61,5 +61,10 @@ public class PrimeraClase {
         for (PrimeraClase obj : objetos) {
             obj.mostrar();
         }
+        
+        //HOLA ESTO ES OTRO CAMBIO  PARA GIT 
+        for (PrimeraClase obj : objetos) {
+            obj.mostrar();
+        }
     }
 }
