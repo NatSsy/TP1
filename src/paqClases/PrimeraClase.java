@@ -47,7 +47,6 @@ public class PrimeraClase {
         //unObjeto3.mostrar();
         //unObjeto4.mostrar();
         //unObjeto5.mostrar();
-
         ArrayList<PrimeraClase> objetos = new ArrayList<>();
         objetos.add(unObjeto1);
         objetos.add(unObjeto2);
@@ -55,6 +54,10 @@ public class PrimeraClase {
         objetos.add(unObjeto4);
         objetos.add(unObjeto5);
 
+        for (PrimeraClase obj : objetos) {
+            obj.mostrar();
+        }
+        //HOLA ESTO ES UN CAMBIO PARA GIT
         for (PrimeraClase obj : objetos) {
             obj.mostrar();
         }
